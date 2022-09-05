@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style3.css">
+      <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="900395298163-ttknv8bdt8430rahs0ftp70vurhucq6p.apps.googleusercontent.com">
+       <style>
+
+    .g-signin2{
+              margin-left:500px;
+              margin-right:200px;
+    }
+        .data{
+         display:none;
+        }
+    </style>
+</head>
+<body>
+<script src="app.js"></script>
+<script src="signOut.js"></script>
+<div id="model-account" class="model">
+    <div class="model-content centre-align">
+        <h4>Account Details</h4>
+        <div class="accout-details"></div>
+    </div>
+</div>
+<iframe src="http://127.0.0.1:8050" width=1500 height=1000></iframe>
+
+<!-- <a href="" onclick="signOut();" class="btn btn-danger">Sign out</a>-->
+
+<!--<a href="index.html" onclick="logOut();" class="btn-btn-danger">LogOut</a>-->
+
+
+<a   id="signOut" href="index.html" onclick="signOut();">Sign out</a>
+
+
+<script>
+  function signOut(googleUser) {
+    var auth2 = gapi.auth2.getAuthInstance();
+    auth2.signOut().then(function () {
+      console.log('User signed out.');
+    });
+  }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+.input-field{
+    margin: auto;
+    width: 20%;
+    margin-top: 15px;
+    height: 60px;
+    
+    color:white;
+    
+}
+#login{
+    
+    margin: 10px;
+  width: 90%;
+  padding: 8px;
+  margin: centre;
+  margin-left: 30px;
+  background-color:green;
+  width:10%;
+  margin-left:45%;
+  margin-right:25%;
+  color: white;
+  
+}
+
+#signup{
+    text-align: center;
+    color:white;
+}
+#password{
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+    margin: centre;
+    margin-left: 30px;
+    background-color: rgb(148, 13, 13);
+    width:10%;
+    margin-left:45%;
+    margin-right:25%;
+    color: white;
+   
+    
+
+}
+#signin{
+   
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+    margin: centre;
+    margin-left: 30px;
+    width:50%;
+    margin-left:30%;
+    margin-right:35%   
+}
+h1{
+    color:white;
+    text-align: center;
+}
+body {
+    background-image: url("graph.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+   }
+
+.heading1{
+    color: white;
+}

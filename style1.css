@@ -1,0 +1,22 @@
+#signup-form{
+    text-align: center;
+    color:white;
+
+}
+.input-field{
+        margin: auto;
+        width: 200px;
+        margin-top: 20px;
+        height: 60px;
+        text-align: center;
+        
+        
+}
+
+body {
+    background-image: url("graph.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    
+    
+   }
